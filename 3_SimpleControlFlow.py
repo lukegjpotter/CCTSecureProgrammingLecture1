@@ -8,8 +8,11 @@ evenOrOdd(3)
 evenOrOdd(4)
 
 # Print largest number
-numbers = [1, 2, 3, 4, 5]
-print(f"Largest number of {numbers} is {max(numbers)}")
+def largestInNumbersList(numbers):
+    print(f"Largest number of {numbers} is {max(numbers)}")
+
+largestInNumbersList([1, 2, 3, 4, 5])
+largestInNumbersList([6, 69, 420])
 
 # Leap Year Checker
 def leapYearChecker(year):
