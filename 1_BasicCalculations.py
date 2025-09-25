@@ -11,6 +11,7 @@ def celsiusToFahrenheit(celsius):
 
 celsiusToFahrenheit(0)
 celsiusToFahrenheit(38)
+celsiusToFahrenheit(38.5)
 
 # Loan Interest
 principle = 100000
