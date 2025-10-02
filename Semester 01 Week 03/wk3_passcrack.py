@@ -2,7 +2,7 @@ import hashlib
 
 def crackHash(inputPass):
     try:
-        passFile = open("wk3_passlist.txt", "r")
+        passFile = open("Semester 01 Week 03/wk3_passlist.txt", "r")
     except:
         print("File Not Found")
 
